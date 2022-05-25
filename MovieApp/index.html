@@ -10,13 +10,25 @@
 
     <script type="module">
 
-        import {listMovie} from "./js/modulo-api.js";
+        import{lista_api} from "./js/modulo-api.js";
+        import{content_type} from "./config.js";
+
+        console.log("inizio");
+        lista_api("terminator", "");
+        lista_api("terminator", content_type.SERIES);
+        console.log("fine");
+        
+        //-------------------------------------
+        
+        /*import {listMovie, listSerie} from "./js/modulo-api.js";
 
         console.log("inizio");
         listMovie();
+        listSerie();
         console.log("fine");
+        */
 
-
+        //-------------------------------------
 
         /*import{pippo, somma} from "./js/modulo-api.js";
 
