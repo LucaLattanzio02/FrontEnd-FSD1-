@@ -6,9 +6,32 @@ export const lista_api = (s, type) => {
         .then(response => response.json())
         .then(results => {
             const items = results.Search;
-            console.log(items);
+            
+            viewItems(items); // richiamo della funzione "viewItems"
         });
 };
+
+
+const viewItems = (items) =>{
+
+     // Ciclare array + Estrapolare ogni item
+    items.map(item => {
+
+        // 3 Estrapolare solo le proprietà che sevono (in questo caso "title, Year, Poster, Type")
+
+        //console.group(); // riorganizza le informazioni
+        
+        console.group(item.Title) // organizza le informazioni con il titolo
+
+        console.log(item.Year);
+        console.log(item.Poster);
+        console.log(item.Type);
+
+        console.groupEnd();
+    });
+}
+
+// richiamo della funzione "viewItems"
 
 //------------------------------------------
 
