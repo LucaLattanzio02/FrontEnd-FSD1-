@@ -1,4 +1,4 @@
-GET http://www.omdbapi.com/?apikey=4b925bd5&s=terminator HTTP/1.1
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=god-of-war&type=game HTTP/1.1
 // chiamata con parametro s--> "terminator" prima pagina
 ###
 
@@ -24,4 +24,16 @@ GET http://www.omdbapi.com/?apikey=4b925bd5&t=sun HTTP/1.1
 
 GET http://www.omdbapi.com/?apikey=4b925bd5&s=titans&type=game HTTP/1.1
 //chiamata con parametro di ricerca s--> "titans" e parametro type--> "game"
+###
+
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=game-of-thrones&type=series HTTP/1.1
+###
+
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=X-men&type=movie HTTP/1.1
+###
+
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=Lord%20of%20the%20rings&type=movie HTTP/1.1
+###
+
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=Fantastic%20four&type=game HTTP/1.1
 ###

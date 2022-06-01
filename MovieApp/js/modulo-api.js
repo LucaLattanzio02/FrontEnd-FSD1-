@@ -1,7 +1,7 @@
 import {URL_BASE} from "../config.js";
 
-export const lista_api = (s, type) => {
-    const url = URL_BASE + `s=${s}&type=${type}`;
+export const lista_api = (s, type, y) => {
+    const url = URL_BASE + `s=${s}&type=${type}&y=${y}`;
     fetch(url)
         .then(response => response.json())
         .then(results => {
