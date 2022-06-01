@@ -14,21 +14,22 @@ export const lista_api = (s, type, y) => {
 
 const viewItems = (items) =>{
 
+    const element = document.getElementById("divprova");
+
      // Ciclare array + Estrapolare ogni item
-    items.map(item => {
-
-        // 3 Estrapolare solo le proprietà che sevono (in questo caso "title, Year, Poster, Type")
-
-        //console.group(); // riorganizza le informazioni
+    items.map((item) => {
         
-        console.group(item.Title) // organizza le informazioni con il titolo
-
-        console.log(item.Year);
-        console.log(item.Poster);
-        console.log(item.Type);
-
-        console.groupEnd();
+        element.appendChild(create(item));
+       
     });
+}
+
+const create = (movie) => {
+    const para = document.createElement("p");
+    const node = document.createTextNode(movie.Title);
+    para.appendChild(node);
+
+    return para;
 }
 
 // richiamo della funzione "viewItems"

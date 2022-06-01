@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> prova </title>
+</head>
+<body>
+
+    <div id="divprova">
+
+        <script type="module">
+
+            import{lista_api} from "./js/modulo-api.js";
+            import{content_type} from "./config.js";
+    
+            console.log("inizio");
+           // lista_api("Avengers", "");
+            lista_api("X-Men", content_type.MOVIE);
+            console.log("fine");
+            
+            //-------------------------------------
+            
+            /*import {listMovie, listSerie} from "./js/modulo-api.js";
+    
+            console.log("inizio");
+            listMovie();
+            listSerie();
+            console.log("fine");
+            */
+    
+            //-------------------------------------
+    
+            /*import{pippo, somma} from "./js/modulo-api.js";
+    
+            console.log(pippo);
+            window.URL=pippo;
+    
+            */
+        </script>
+
+    </div>
+    
+</body>
+</html>
