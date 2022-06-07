@@ -1,5 +1,9 @@
 body{
-    background-color: darkblue
+    background-color: red;
+}
+
+.navbar-toggler-icon{
+    background-color: orange;
 }
 
 #nav{
@@ -10,11 +14,31 @@ body{
 }
 
 .nav-link{
-    border-radius: 10px;
+    border: solid;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#link{
+    color: white;
+}
+
+a :hover{
+    background-color: yellow;
+    color: black;
+}
+
+#ricerca{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #button{
     background-color: aquamarine;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .fw-light{
@@ -22,35 +46,75 @@ body{
     text-align: center;
 }
 
-.carousel{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+.card-body{
+    text-align: center;
+    height: 300px;
 }
 
-#img{
-    width: 700px;
-    height: 500px;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+.card-body4{
+    text-align: center;
+    height: 290px;
 }
+
+.card-body5{
+    text-align: center;
+    height: 310px;
+}
+
+.card-body6{
+    text-align: center;
+    height: 345px;
+}
+
 
 .card{
-    float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-
-}
-
-.card-title{
+    margin-left: 70px;
+    border-radius: 15px;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
 }
 
-.card-body{
-    height: 150px;
+#button-card{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    margin-top: 25px;
 }
+
+#button-card:hover{
+    transform: translateY(-0.25em);
+}
+
+#button-card6{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    margin-top: 8px;
+}
+
+
+#button-card6:hover{
+    transform: translateY(-0.25em);
+}
+
+#button-spinoff{
+    margin-left: 70px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.card-spinoff{
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+#button-spinoff:hover{
+    transform: translateY(-0.25em);
+}
+
+
 
 
