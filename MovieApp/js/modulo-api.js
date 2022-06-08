@@ -1,35 +1,20 @@
 import {URL_BASE} from "../config.js";
 
-export const PosterCarosello = (t, type) => {
+export const RicercaFilm = async (t, type) => {
+
     const url = URL_BASE + `t=${t}&type=${type}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(result => {
-            const item = result;
-            
-            viewItemsCarosello(item); // richiamo della funzione "viewItems"
-        });
-};
 
-const viewItemsCarosello = (item) =>{
-   replacePosterCarousel(item);
-}
+    try {
 
-const replacePosterCarousel = (movie) => {
-    const img = document.getElementById("carosello-img-1");
+        const response = await fetch(url);
+        const result = await response.json();
+                
+        await viewItems(result);
 
-    img.src = `${movie.Poster}`;
-}
+    } catch (error) {
 
-export const RicercaFilm = (t, type) => {
-    const url = URL_BASE + `t=${t}&type=${type}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(result => {
-            const item = result;
-            
-            viewItems(item); // richiamo della funzione "viewItems"
-        });
+        console.log(error.message);
+    }
 };
 
 const viewItems = (item) =>{
@@ -54,17 +39,24 @@ const replaceMovieContent = (movie) => {
     element.replaceChild(titolo, titolo_vecchio);
     element.replaceChild(para, desc_vecchia);
     img_vecchia.src = `${movie.Poster}`;
+
 }
 
-export const RicercaFilm2 = (t, type) => {
+export const RicercaFilm2 = async (t, type) => {
+
     const url = URL_BASE + `t=${t}&type=${type}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(result => {
-            const item = result;
-            
-            viewItems2(item); // richiamo della funzione "viewItems"
-        });
+
+    try {
+
+        const response = await fetch(url);
+        const result = await response.json();
+                
+        await viewItems2(result);
+
+    } catch (error) {
+
+        console.log(error.message);
+    }
 };
 
 const viewItems2 = (item) =>{
@@ -91,15 +83,21 @@ const replaceMovieContent2 = (movie) => {
     img_vecchia.src = `${movie.Poster}`;
 }
 
-export const RicercaFilm3 = (t, type) => {
+export const RicercaFilm3 = async (t, type) => {
+
     const url = URL_BASE + `t=${t}&type=${type}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(result => {
-            const item = result;
-            
-            viewItems3(item); // richiamo della funzione "viewItems"
-        });
+
+    try {
+
+        const response = await fetch(url);
+        const result = await response.json();
+                
+        await viewItems3(result);
+
+    } catch (error) {
+
+        console.log(error.message);
+    }
 };
 
 const viewItems3 = (item) =>{
@@ -126,15 +124,21 @@ const replaceMovieContent3 = (movie) => {
     img_vecchia.src = `${movie.Poster}`;
 }
 
-export const RicercaFilm4 = (t, type) => {
+export const RicercaFilm4 = async (t, type) => {
+
     const url = URL_BASE + `t=${t}&type=${type}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(result => {
-            const item = result;
-            
-            viewItems4(item); // richiamo della funzione "viewItems"
-        });
+
+    try {
+
+        const response = await fetch(url);
+        const result = await response.json();
+                
+        await viewItems4(result);
+
+    } catch (error) {
+
+        console.log(error.message);
+    }
 };
 
 const viewItems4 = (item) =>{
@@ -161,15 +165,21 @@ const replaceMovieContent4 = (movie) => {
     img_vecchia.src = `${movie.Poster}`;
 }
 
-export const RicercaFilm5 = (t, type) => {
+export const RicercaFilm5 = async (t, type) => {
+
     const url = URL_BASE + `t=${t}&type=${type}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(result => {
-            const item = result;
-            
-            viewItems5(item); // richiamo della funzione "viewItems"
-        });
+
+    try {
+
+        const response = await fetch(url);
+        const result = await response.json();
+                
+        await viewItems5(result);
+
+    } catch (error) {
+
+        console.log(error.message);
+    }
 };
 
 const viewItems5 = (item) =>{
@@ -196,15 +206,21 @@ const replaceMovieContent5 = (movie) => {
     img_vecchia.src = `${movie.Poster}`;
 }
 
-export const RicercaFilm6 = (t, type) => {
+export const RicercaFilm6 = async (t, type) => {
+
     const url = URL_BASE + `t=${t}&type=${type}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(result => {
-            const item = result;
-            
-            viewItems6(item); // richiamo della funzione "viewItems"
-        });
+
+    try {
+
+        const response = await fetch(url);
+        const result = await response.json();
+                
+        await viewItems6(result);
+
+    } catch (error) {
+
+        console.log(error.message);
+    }
 };
 
 const viewItems6 = (item) =>{
@@ -231,15 +247,21 @@ const replaceMovieContent6 = (movie) => {
     img_vecchia.src = `${movie.Poster}`;
 }
 
-export const RicercaFilmSpin1 = (t, type) => {
+export const RicercaFilm_SpinOFF = async (t, type) => {
+
     const url = URL_BASE + `t=${t}&type=${type}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(result => {
-            const item = result;
-            
-            viewItemsSpinn(item); // richiamo della funzione "viewItems"
-        });
+
+    try {
+
+        const response = await fetch(url);
+        const result = await response.json();
+                
+        await viewItemsSpinn(result);
+
+    } catch (error) {
+
+        console.log(error.message);
+    }
 };
 
 const viewItemsSpinn = (item) =>{
@@ -252,15 +274,21 @@ const replaceSpinnContent = (movie) => {
     img_vecchia.src = `${movie.Poster}`;
 }
 
-export const RicercaFilmSpin2 = (t, type) => {
+export const RicercaFilm_SpinOFF2 = async (t, type) => {
+
     const url = URL_BASE + `t=${t}&type=${type}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(result => {
-            const item = result;
-            
-            viewItemsSpinn2(item); // richiamo della funzione "viewItems"
-        });
+
+    try {
+
+        const response = await fetch(url);
+        const result = await response.json();
+                
+        await viewItemsSpinn2(result);
+
+    } catch (error) {
+
+        console.log(error.message);
+    }
 };
 
 const viewItemsSpinn2 = (item) =>{
@@ -272,8 +300,6 @@ const replaceSpinnContent2 = (movie) => {
 
     img_vecchia.src = `${movie.Poster}`;
 }
-
-
 
 
 /*
@@ -305,7 +331,51 @@ const secondaFetch = (listaFilm) =>{
     })
 }
 
+
 */
+
+/*
+import {BASE_URL} from "./config.js"
+
+export const apilist = async (s, type) => {
+  const url = BASE_URL + `s=${s}&type=${type}`;
+  const responce = await fetch(url);
+  const result = await responce.json();
+  const items = result.Search;
+  viewItems(items);
+};
+
+    const viewItems = (items) => {
+      let indice = 1;
+    //Ciclare l'array
+    items.map((item) => {
+      //Creo il movie all'interno del DOM
+      createHTMLMovie(item, indice);
+      indice++;
+    });
+  };
+  
+    const createHTMLMovie = (movie, i) => {
+      const div = document.getElementById(`film${i}`);
+      const img = document.getElementById(`film-img-${i}`);
+      const anno = document.getElementById(`film-anno-${i}`);
+      const titolo = document.getElementById(`film-titolo-${i}`);
+
+      const h3 = document.createElement("h3");
+      const node = document.createTextNode(movie.Title);
+      h3.appendChild(node);
+      div.replaceChild(h3, titolo);
+        
+      const para = document.createElement("p");
+      const node2 = document.createTextNode(movie.Year);
+      para.appendChild(node2);
+      div.replaceChild(para, anno);
+
+      img.src = `${movie.Poster}`;
+  
+    };
+    
+    */
 
 const traduciTitolo = (titolo) => {
     const stringa = titolo.replace(/\s/g, "%20");  // Trasforma gli gli spazzzzi in %20 per ricerca migliore

@@ -1,5 +1,5 @@
 body{
-    background-color: red;
+    background: linear-gradient(rgb(178, 178, 6), black);
 }
 
 .navbar-toggler-icon{
@@ -14,7 +14,7 @@ body{
 }
 
 .nav-link{
-    border: solid;
+    text-align: center;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -29,20 +29,8 @@ a :hover{
     color: black;
 }
 
-#ricerca{
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-#button{
-    background-color: aquamarine;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
 .fw-light{
-    color: gold;
+    color: rgb(43, 42, 39);
     text-align: center;
 }
 
@@ -71,15 +59,30 @@ a :hover{
     margin-left: 70px;
     border-radius: 15px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     float: left;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 #button-card{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 0);
     margin-top: 25px;
+}
+
+#button-card5{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    margin-top: 85px;
+}
+
+#button-card5:hover{
+    transform: translateY(-0.25em);
 }
 
 #button-card:hover{
@@ -89,12 +92,19 @@ a :hover{
 #button-card6{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 0);
-    margin-top: 8px;
+    margin-top: 70px;
 }
 
 
 #button-card6:hover{
     transform: translateY(-0.25em);
+}
+
+.fw-light2{
+    color: gold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #button-spinoff{
@@ -107,8 +117,30 @@ a :hover{
 }
 
 .card-spinoff{
-    margin-left: 100px;
+    margin-left: 80px;
     border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card-spinoff3{
+    margin-left: 80px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.card-spinoff:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.card-spinoff3:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#card-image-spinoff3{
+    width: 320px;
+    height: 470px;
 }
 
 #button-spinoff:hover{

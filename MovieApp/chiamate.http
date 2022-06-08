@@ -44,6 +44,6 @@ GET http://www.omdbapi.com/?apikey=4b925bd5&s=Justice%20League&type=movie HTTP/1
 GET http://www.omdbapi.com/?apikey=4b925bd5&s=Rocky&type=movie HTTP/1.1
 ###
 
-GET http://www.omdbapi.com/?apikey=4b925bd5&s=Creed%20III&type=movie HTTP/1.1
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=Creed%20II&type=movie HTTP/1.1
 ###
 
