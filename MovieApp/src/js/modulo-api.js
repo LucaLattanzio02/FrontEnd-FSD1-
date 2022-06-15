@@ -1,4 +1,4 @@
-import {URL_BASE} from "../config.js";
+import {URL_BASE} from "./config.js";
 
 export const RicercaFilm = async (s, type) => {
 
