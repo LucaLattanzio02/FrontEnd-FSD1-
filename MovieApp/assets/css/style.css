@@ -1,4 +1,5 @@
-body{
+/* css home.html */
+#sfondo1{
     background: linear-gradient(rgb(178, 178, 6), black);
 }
 
@@ -36,22 +37,27 @@ a :hover{
 
 .card-body{
     text-align: center;
-    height: 300px;
+    height: 100px;
+}
+
+.card-body2{
+    text-align: center;
+    height: 140px;
 }
 
 .card-body4{
     text-align: center;
-    height: 290px;
+    height: 85px;
 }
 
 .card-body5{
     text-align: center;
-    height: 310px;
+    height: 100px;
 }
 
 .card-body6{
     text-align: center;
-    height: 345px;
+    height: 100px;
 }
 
 
@@ -67,37 +73,6 @@ a :hover{
 .card:hover{
     transform: scale(1.1);
     transition: all 0.5s;
-}
-
-#button-card{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 0);
-    margin-top: 25px;
-}
-
-#button-card5{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 0);
-    margin-top: 85px;
-}
-
-#button-card5:hover{
-    transform: translateY(-0.25em);
-}
-
-#button-card:hover{
-    transform: translateY(-0.25em);
-}
-
-#button-card6{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 0);
-    margin-top: 70px;
-}
-
-
-#button-card6:hover{
-    transform: translateY(-0.25em);
 }
 
 .fw-light2{
@@ -122,6 +97,10 @@ a :hover{
     margin-bottom: 30px;
 }
 
+#card-image-spinoff3{
+    height: 470px;
+}
+
 .card-spinoff3{
     margin-left: 80px;
     border-radius: 10px;
@@ -138,15 +117,55 @@ a :hover{
     transition: all 0.5s;
 }
 
-#card-image-spinoff3{
-    width: 320px;
-    height: 470px;
-}
-
 #button-spinoff:hover{
     transform: translateY(-0.25em);
 }
 
+/* csss di transformers.html */
+
+#img-sfondo-page2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-4{
+    margin-left: 300px;
+}
+
+.img-tras:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 10px 10px 10px 5px #0400ff;;
+}
+
+/* css di LOTR.html */
 
 
+#img-sfondo-page3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.fw-light3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card-body-lotr1{
+    text-align: center;
+    height: 115px;
+}
+
+.card-body-lotr2{
+    text-align: center;
+    height: 115px;
+}
+
+.card-body-lotr3{
+    text-align: center;
+    height: 90px;
+}
