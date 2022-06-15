@@ -129,14 +129,15 @@ a :hover{
     background-position: center;
 }
 
-.card-4{
-    margin-left: 300px;
+.card-trasformers{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.img-tras:hover{
+.card-trasformers:hover{
     transform: scale(1.1);
     transition: all 0.5s;
-    box-shadow: 10px 10px 10px 5px #0400ff;;
+    box-shadow: 10px 10px 10px 5px rgb(0, 55, 255);
 }
 
 /* css di LOTR.html */
