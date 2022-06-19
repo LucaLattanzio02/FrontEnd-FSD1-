@@ -1,4 +1,181 @@
-/* css home.html */
+/* *********************
+
+    css index.html 
+
+************************ */
+#nav-homePage{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: solid;
+    background-color: gray;
+}
+
+#back-navbar-HomePage{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-link{
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#logo-nav-homePage:hover{
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+#link-home{
+    color: rgb(0, 0, 0);
+}
+
+#link-home:hover{
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h4{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.carousel-inner{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#img-carousell{
+    width: 1500px;
+    height: 300px;
+}
+
+#h5-carosello{
+    color: rgb(255, 255, 255);
+}
+
+#p-carosello1{
+    color: rgb(255, 255, 255);
+}
+
+#p-carosello2{
+    color: rgb(255, 255, 255);
+}
+
+.card-home1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 450px;
+    border: solid;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.card-home2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 450px;
+    border: solid;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.card-home3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 450px;
+    border: solid;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.card-body-home1{
+    text-align: center;
+}
+
+.card-body-home2{
+    text-align: center;
+}
+
+.card-body-home3{
+    text-align: center;
+}
+
+#button-card-home{
+    margin-top: 25px;
+}
+
+#card-img-home1{
+    height: 200px;
+}
+
+#card-img-home2{
+    height: 200px;
+}
+
+#card-img-home3{
+    height: 200px;
+}
+
+.card-home4{
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 70px;
+    
+}
+
+.card-home5{
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 70px;
+    
+}
+
+.card-home6{
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 70px;
+    
+}
+
+#card-img-home4{
+    height: 400px;
+    border-radius: 10px;
+}
+
+#card-img-home5{
+    height: 400px;
+    border-radius: 10px;
+}
+
+#card-img-home6{
+    height: 400px;
+    border-radius: 10px;
+}
+
+
+/* *********************
+
+    css rocky.html 
+
+************************ */
+
 #sfondo1{
     background: linear-gradient(rgb(178, 178, 6), black);
 }
@@ -12,22 +189,21 @@
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-color: brown
 }
 
-.nav-link{
-    text-align: center;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+#logo-nav:hover{
+    background-color: rgb(222, 162, 72);
+    border-radius: 10px;
 }
 
 #link{
     color: white;
 }
 
-a :hover{
-    background-color: yellow;
-    color: black;
+#link:hover{
+    background-color: rgb(222, 162, 72);
+    border-radius: 10px;
 }
 
 .fw-light{
@@ -62,7 +238,7 @@ a :hover{
 
 
 .card{
-    margin-left: 70px;
+    margin-left: 50px;
     border-radius: 15px;
     text-align: center;
     margin-top: 30px;
@@ -70,9 +246,35 @@ a :hover{
     float: left;
 }
 
+#card-img-1{
+    border-radius: 10px;
+}
+
+#card-img-2{
+    border-radius: 10px;
+}
+
+#card-img-3{
+    border-radius: 10px;
+}
+
+#card-img-4{
+    border-radius: 10px;
+}
+
+#card-img-5{
+    border-radius: 10px;
+}
+
+#card-img6{
+    border-radius: 10px;
+}
+
+
 .card:hover{
     transform: scale(1.1);
     transition: all 0.5s;
+    box-shadow: 10px 10px 10px 5px rgba(255, 30, 0, 0.54);
 }
 
 .fw-light2{
@@ -92,17 +294,26 @@ a :hover{
 }
 
 .card-spinoff{
-    margin-left: 80px;
+    margin-left: 50px;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
+#card-image-spinoff1{
+    border-radius: 10px;
+}
+
+#card-image-spinoff2{
+    border-radius: 10px;
+}
+
 #card-image-spinoff3{
     height: 470px;
+    border-radius: 10px;
 }
 
 .card-spinoff3{
-    margin-left: 80px;
+    margin-left: 50px;
     border-radius: 10px;
     margin-bottom: 30px;
 
@@ -110,28 +321,85 @@ a :hover{
 .card-spinoff:hover{
     transform: scale(1.1);
     transition: all 0.5s;
+    box-shadow: 10px 10px 10px 5px rgba(255, 30, 0, 0.54);
 }
 
 .card-spinoff3:hover{
     transform: scale(1.1);
     transition: all 0.5s;
+    box-shadow: 10px 10px 10px 5px rgba(255, 30, 0, 0.54);
 }
 
 #button-spinoff:hover{
     transform: translateY(-0.25em);
 }
 
-/* csss di transformers.html */
+/* *********************
+
+    css di transformers.html 
+
+************************ */
 
 #img-sfondo-page2{
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+#back-navbar2{
+    background-color: rgb(255, 255, 255);
+}
+
+#nav2{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+#logo-nav2:hover{
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#link2{
+    color: white;
+}
+
+#link2:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+
 .card-trasformers{
-    margin-left: 50px;
-    margin-right: 50px;
+    border-radius: 10px;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-trasformers-4{
+    border-radius: 10px;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-trasformers-5{
+    margin-left: 45px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-trasformers-6{
+    margin-left: 45px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .card-trasformers:hover{
@@ -140,13 +408,85 @@ a :hover{
     box-shadow: 10px 10px 10px 5px rgb(0, 55, 255);
 }
 
-/* css di LOTR.html */
+.card-trasformers-4:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 10px 10px 10px 5px rgb(0, 55, 255);
+}
 
+.card-trasformers-5:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 10px 10px 10px 5px rgb(0, 55, 255);
+}
+
+.card-trasformers-6:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 10px 10px 10px 5px rgb(0, 55, 255);
+}
+
+#card-img-tras-1{
+    border-radius: 10px;
+}
+
+#card-img-tras-2{
+    border-radius: 10px;
+}
+
+#card-img-tras-3{
+    border-radius: 10px;
+}
+
+#card-img-tras-4{
+    border-radius: 10px;
+}
+
+#card-img-tras-5{
+    border-radius: 10px;
+}
+
+#card-img-tras6{
+    border-radius: 10px;
+}
+
+/* *********************
+
+    css di LOTR.html 
+
+************************ */
 
 #img-sfondo-page3{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#nav3{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: gold
+}
+
+#back-navbar3{
+    background-color: rgb(255, 0, 0);
+}
+
+#link3{
+    color: rgb(0, 0, 0);
+}
+
+#logo-nav3:hover{
+    background-color: rgba(255, 0, 64, 0.544);
+    border-radius: 10px;
+}
+
+#link3:hover{
+    background-color: rgba(255, 0, 64, 0.544);
+    color: black;
+    border-radius: 10px;
 }
 
 .fw-light3{
@@ -169,4 +509,20 @@ a :hover{
 .card-body-lotr3{
     text-align: center;
     height: 90px;
+}
+
+#card-lotr-3{
+    height: 588px;
+}
+
+#card-lotr-3:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 10px 10px 10px 5px rgb(255, 123, 0);
+}
+
+#card-lotr:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 10px 10px 10px 5px rgb(255, 123, 0);
 }

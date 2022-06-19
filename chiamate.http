@@ -59,6 +59,18 @@ GET http://www.omdbapi.com/?apikey=4b925bd5&s=The%20Lord%20of%20the%20Rings&type
 GET http://www.omdbapi.com/?apikey=4b925bd5&s=The%20Hobbit&type=movie HTTP/1.1
 ###
 
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=Bumblebee&type=movie HTTP/1.1
+###
+
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=The%20Boys&type=series HTTP/1.1
+###
+
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=Game%20of%20Thrones&type=series HTTP/1.1
+###
+
+GET http://www.omdbapi.com/?apikey=4b925bd5&s=snowpiercer&type=series HTTP/1.1
+###
+
 
 
 
