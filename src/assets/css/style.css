@@ -39,20 +39,8 @@
 
 .h1{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 20px;
-}
-
-.h4{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.h2{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 .carousel-inner{
@@ -63,7 +51,7 @@
 
 #img-carousell{
     width: 1500px;
-    height: 300px;
+    height: 450px;
 }
 
 #h5-carosello{
@@ -78,31 +66,37 @@
     color: rgb(255, 255, 255);
 }
 
+.h1-movies{
+    text-align: center;
+    padding-top: 100px;
+}
+
 .card-home1{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     height: 450px;
     border: solid;
     border-radius: 10px;
-    margin-left: 55px;
+    margin-left: 100px;
+
 }
 
 .card-home2{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     height: 450px;
     border: solid;
     border-radius: 10px;
-    margin-left: 55px;
+    margin-left: 100px;
 }
 
 .card-home3{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     height: 450px;
     border: solid;
     border-radius: 10px;
-    margin-left: 55px;
+    margin-left: 100px;
 }
 
 .card-body-home1{
@@ -133,24 +127,29 @@
     height: 200px;
 }
 
+.h1-seriestv{
+    text-align: center;
+    margin-top: 110px;
+}
+
 .card-home4{
-    margin-top: 20px;
+    margin-top: 70px;
     border-radius: 10px;
-    margin-left: 55px;
+    margin-left: 100px;
     
 }
 
 .card-home5{
-    margin-top: 20px;
+    margin-top: 70px;
     border-radius: 10px;
-    margin-left: 55px;
+    margin-left: 100px;
     
 }
 
 .card-home6{
-    margin-top: 20px;
+    margin-top: 70px;
     border-radius: 10px;
-    margin-left: 55px;
+    margin-left: 100px;
     
 }
 
